@@ -1,0 +1,145 @@
+body {
+    background-color: #afd9d5;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 0%;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+/* Title Section */
+#title .container-fluid {
+    padding: 2% 5% 7%;
+    text-align: left;
+}
+
+/* navbar */
+.navbar {
+    padding-bottom: 5%;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: black;
+}
+
+/* Title  */
+.big-title {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3.3rem;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.sm-title {
+    font-size: 3.0rem;
+    font-weight: 200;
+}
+
+/* button */
+.btn {
+    margin: 7% 2%;
+    padding: 10px 30px;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+
+.disable {
+    background-color: rgba(255, 255, 255, 0.473);
+    color: rgba(0, 0, 0, 0.583);
+}
+
+.disable:hover,
+.download-btn {
+    background-color: #fff;
+    color: black;
+}
+
+/* Title image */
+.product-image {
+    width: 80%;
+    margin: -15% 10%;
+}
+
+
+/* Category Section */
+
+#category {
+    padding: 7% 15%;
+}
+
+.card-head {
+    margin-bottom: 5%;
+}
+
+.card-img-top {
+    padding: 5%;
+    border-radius: 0 60px 0 0;
+}
+
+.card {
+    border-radius: 0 60px 0 60px;
+    margin: 9%;
+    cursor: pointer;
+}
+
+.card-title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+.card-body {
+    padding: 2%;
+}
+
+.card-detail {
+    font-size: 0.8rem;
+    padding: 3%;
+}
+
+/* Support Section */
+
+#support {
+
+    text-align: left;
+    padding: 1% 10% 7%;
+}
+
+.connect-img {
+    border-top-right-radius: 60px;
+}
+
+.exp-sup {
+    line-height: 1.5;
+}
+
+
+/* Conatct Section */
+#contact {
+    padding: 7%;
+    text-align: left;
+}
+
+.social-media {
+    cursor: pointer;
+}
+
+/* Mobile  view */
+
+@media (max-width:1024px) {
+    .product-image {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .con-img {
+        display: none;
+    }
+}
