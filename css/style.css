@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #afd9d5;
     text-align: center;
@@ -50,6 +54,21 @@ h4 {
     border-radius: 1.5rem;
     font-weight: 600;
 }
+/* Scorall Button */
+.scrollbtn {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.scrollbtn i{
+    color:#000;
+}
+.scrollbtn i:hover{
+    color: rgb(39, 39, 39);
+}
+
 
 .disable {
     background-color: rgba(255, 255, 255, 0.473);
