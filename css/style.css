@@ -158,7 +158,25 @@ h4 {
         margin: 5% 0;
     }
 
+    /* Scorall Button */
+.scrollbtn {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.scrollbtn i{
+    color:#000;
+}
+.scrollbtn i:hover{
+    color: rgb(39, 39, 39);
+}
+
     .con-img {
         display: none;
     }
+    * {
+    scroll-behavior: smooth;
+}
 }
